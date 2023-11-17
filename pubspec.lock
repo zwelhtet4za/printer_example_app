@@ -5,10 +5,10 @@ packages:
     dependency: transitive
     description:
       name: archive
-      sha256: "0c8368c9b3f0abbc193b9d6133649a614204b528982bebc7026372d61677ce3a"
+      sha256: "7e0d52067d05f2e0324268097ba723b71cb41ac8a6a2b24d1edf9c536b987b03"
       url: "https://pub.dev"
     source: hosted
-    version: "3.3.7"
+    version: "3.4.6"
   args:
     dependency: transitive
     description:
@@ -46,8 +46,8 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: aac25a1bf3eaa8def5085f51d2878bb028a54d55
-      url: "https://github.com/zwelhtet4za/blue_printer_plugin.git"
+      resolved-ref: "1365eacf494f454820e9ce15dcf334c9bee5e596"
+      url: "https://github.com/ZaCompanyMobileDevelopment/blue_printer_plugin.git"
     source: git
     version: "0.0.14"
   blue_thermal_printer:
@@ -130,14 +130,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
-  fixnum:
-    dependency: transitive
-    description:
-      name: fixnum
-      sha256: "25517a4deb0c03aa0f32fd12db525856438902d9c16536311e76cdc57b31d7d1"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -147,10 +139,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_blue_plus
-      sha256: "0cce1ea51ace24e198df06bf9098c2525bd8ac2cec466813dfd69e02d5c188f8"
+      sha256: "2e558ac142fbd9c1a64325feaac9dc9e510f727f1f22ea2202bb6f790ab23dbe"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.2"
+    version: "1.28.14"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -252,14 +244,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.7.3"
-  protobuf:
-    dependency: transitive
-    description:
-      name: protobuf
-      sha256: "01dd9bd0fa02548bf2ceee13545d4a0ec6046459d847b6b061d8a27237108a08"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.0"
   qr:
     dependency: transitive
     description:
@@ -276,14 +260,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.0"
-  rxdart:
-    dependency: transitive
-    description:
-      name: rxdart
-      sha256: "0c7c0cedd93788d996e33041ffecda924cc54389199cde4e6a34b440f50044cb"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.27.7"
   sky_engine:
     dependency: transitive
     description: flutter

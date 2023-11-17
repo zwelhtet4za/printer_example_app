@@ -13,7 +13,7 @@ environment:
 dependencies:
   blue_print_pos:
     git:
-      url: https://github.com/zwelhtet4za/blue_printer_plugin.git
+      url: https://github.com/ZaCompanyMobileDevelopment/blue_printer_plugin.git
   http: ^1.1.0
 
   flutter:

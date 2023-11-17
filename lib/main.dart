@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:typed_data';
-
 import 'package:blue_print_pos/blue_print_pos.dart';
 import 'package:blue_print_pos/models/models.dart';
 import 'package:blue_print_pos/receipt/receipt_section_text.dart';
@@ -204,9 +203,9 @@ class _MyAppState extends State<MyApp> {
     /// Example for Print Text
     final ReceiptSectionText receiptText = ReceiptSectionText();
 
-    receiptText.addText(text: 'Hello World', is80: true, alignment: ReceiptAlignment.center, size: ReceiptTextSize.normal);
+    receiptText.addText(text: 'မြန်မာလို', is80: false, alignment: ReceiptAlignment.center, size: ReceiptTextSize.small);
 
-    receiptText.addText(text: 'This is testing ', is80: true, alignment: ReceiptAlignment.center, size: ReceiptTextSize.normal);
+    receiptText.addText(text: 'သစ်ရွက်', is80: false, alignment: ReceiptAlignment.center, size: ReceiptTextSize.small);
 
     // // receiptSecondText.addSpacer();
     await _bluePrintPos.printReceiptText(receiptText, is80: false);
